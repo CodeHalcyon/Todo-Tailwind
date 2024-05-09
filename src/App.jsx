@@ -20,7 +20,7 @@ function App() {
       setTodos([...todos, newTodo])   //inserting the newly created object into the array using the spread operator (...)
       setNewTodoText('')      //initializing the input to empty after adding item into the list
     }
-    else{
+    else {
       alert("Enter a task!")
       return;
     }
